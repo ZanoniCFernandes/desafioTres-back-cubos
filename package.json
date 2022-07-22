@@ -1,0 +1,35 @@
+{
+  "name": "desafio-backend-03-dindin-t05",
+  "version": "1.0.0",
+  "description": "RestAPI",
+  "main": "srcnpm/server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duhsalazar/desafio-backend-03-dindin-t05.git"
+  },
+  "author": "Edu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duhsalazar/desafio-backend-03-dindin-t05/issues"
+  },
+  "homepage": "https://github.com/duhsalazar/desafio-backend-03-dindin-t05#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "nodemon": "^2.0.15"
+  }
+}
